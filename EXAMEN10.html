@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta charset="UTF-8">
+<title>ESCOM-EXAMENES CÁLCULO</title>
+<link rel="stylesheet" href="css/ESTILOS_EXAMENES.css">
+<meta name="keywords" content="Cálculo aplicado, Riemman, Integrales, Examenes">
+<meta name="robots" content="index">
+<link rel="icon" href="imagenes/matematicas.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- <script> alert("Esta pagina esta en desarrollo")</script> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="superior">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.escom.ipn.mx/">ESCOM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos extra
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="listaexamen.html">Examenes</a></li>
+                            <li><a class="dropdown-item" href="RECURSOS_EXTRA.html">PDFS</a></li>
+                            <li><a class="dropdown-item" href="VIDEOS.html">Videos</a></li>
+                            <li><a class="dropdown-item" href="CURSOS.html">Cursos</a></li>
+                        </ul>
+                    </li> -->
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </nav>
+    </header>
+    </div>
+
+    <div class="container">
+        <center class="title">
+            <h1> EXAMEN 10</h1>
+        </center>
+
+
+        <section>
+
+            <form name="quizForm" onsubmit="return verificarRespuestas()">
+
+                <!--PREGUNTA 1-->
+                <h5>1.-Calcular la serie de Taylor dada la siguiente función: </h5>
+                <center>
+                    <img src="imagenes/E101.png" class="img-fluid" alt="..." width="350 px">
+                </center>
+                <!--Correcta-->
+                <input type="radio" name="p1" value="a">a.<img src="imagenes/R101.png" class="img-fluid" alt="..."
+                    width="150 px"><br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="b">b.<img src="imagenes/R101M.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="c">c.<img src="imagenes/R101M2.png" class="img-fluid" alt="..."
+                    width="150 px"></br> <br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="d">d.<img src="imagenes/R101M3.png" class="img-fluid" alt="..."
+                    width="150 px"></br>
+
+                <!--Incorrecta-->
+                <br>
+
+                <!--PREGUNTA 2-->
+                <h5>2.- Calcular la serie de Taylor dada la siguiente función:</h5>
+                <center>
+                    <img src="imagenes/E102.png" class="img-fluid" alt="..." width="350 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="a">a.<img src="imagenes/R102M.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="b">b. <img src="imagenes/R101M3.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="c">c.<img src="imagenes/R102M2.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Correcta-->
+                <input type="radio" name="p2" value="d">d. <img src="imagenes/R102.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <br>
+
+                <!--PREGUNTA 3-->
+                <h5>3.-Determina el radio e intervalo de convergencia de la siguiente serie: </h5>
+                <center>
+                    <img src="imagenes/E103.png" class="img-fluid" alt="..." width="250 px">
+                </center>
+                <!--Incorrecta-->
+
+                <input type="radio" name="p3" value="a">a. R: 4, Intervalo: [-8,2)</br><br>
+
+                <!--Correcta-->
+                <input type="radio" name="p3" value="b">b. R: 5, Intervalo: (-8,2)</br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="c">c. R: 5, Intervalo: [-8,2]</br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="d">d. R: 5, Intervalo: (-8,2].</br><br>
+
+                <br>
+
+                <!--PREGUNTA 4-->
+                <h5>4.-Determina la serie de Maclauring de la siguiente función: </h5>
+                <center><img src="imagenes/E104.png" class="img-fluid" alt="..." width="17%"></center>
+                <br>
+
+                <!--Correcta-->
+                <input type="radio" name="p4" value="a">a. <img src="imagenes/R104.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="b">b.<img src="imagenes/R102M2.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="c">c.<img src="imagenes/R101M2.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="d">d. <img src="imagenes/R101M3.png" class="img-fluid" alt="..."
+                    width="150 px"></br><br>
+
+                <br>
+
+                <!--PREGUNTA 5-->
+                <h5>5.-Determina la serie de Maclauring de la siguiente función: </h5>
+                <center>
+                    <img src="imagenes/E105.png" class="img-fluid" alt="..." width="17%">
+                </center>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="a">a. <img src="imagenes/R104.png" class="img-fluid" alt="..."
+                    width="150 px"></br></br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="b">b.<img src="imagenes/R101.png" class="img-fluid" alt="..."
+                    width="150 px"></br>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="c">c.<img src="imagenes/R102.png" class="img-fluid" alt="..."
+                    width="150 px"></br>
+
+                <!--Correcta-->
+                <input type="radio" name="p5" value="d">d.<img src="imagenes/R105.png" class="img-fluid" alt="..."
+                    width="450 px"></br>
+
+                <br>
+
+                <input type="submit" id="submit" value="Enviar">
+                <a class="regreso" href="PARCIAL4.html">Regresar.</a><br>
+                <div id="resultado"></div>
+
+                <div id="error"></div>
+
+                <p>Asegurate de contestar todas las preguntas.</p> <br>
+            </form>
+        </section>
+    </div>
+
+
+    <script src="js/resp10.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="js/sweetAlert.js"></script> -->
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>

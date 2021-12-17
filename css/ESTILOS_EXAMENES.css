@@ -1,0 +1,39 @@
+.title {
+  color: #076494;
+}
+input[type="submit"] {
+  float: left;
+  background: #076494;
+  border: 0;
+  color: #fff;
+  padding: 10px 15 px;
+  cursor: pointer;
+}
+#resultado h3 {
+  background: #c8c6c6bd;
+  padding: 10px;
+  margin: 40px 0;
+}
+#error h3 {
+  background: #c8c6c6bd;
+  padding: 10px;
+  margin: 40px 0;
+}
+#resultado span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+#container {
+  width: 60%;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 25px;
+}
+.regreso {
+  float: right;
+  background: #076594c2;
+  border: 0;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}

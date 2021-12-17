@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ESCOM-EXAMENES CÁLCULO</title>
+    <link rel="stylesheet" href="css/ESTILOS_EXAMENES.css">
+    <meta name="keywords" content="Cálculo aplicado, Riemman, Integrales, Examenes">
+    <meta name="robots" content="index">
+    <link rel="icon" href="imagenes/matematicas.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="superior">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.escom.ipn.mx/">ESCOM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos extra
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="listaexamen.html">Examenes</a></li>
+                            <li><a class="dropdown-item" href="RECURSOS_EXTRA.html">PDFS</a></li>
+                            <li><a class="dropdown-item" href="VIDEOS.html">Videos</a></li>
+                            <li><a class="dropdown-item" href="CURSOS.html">Cursos</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </nav>
+    </header>
+    </div>
+
+    <div class="container">
+        <center class="title">
+            <h1> EXAMEN 3</h1>
+        </center>
+        <section>
+            <form name="quizForm" onsubmit="return verificarRespuestas()">
+                <!--Si requiere de imagenes, dime y yo las agrego en la carpeta para el zip-->
+                <!--PREGUNTA 1-->
+                <h5>1.-Encuentra el área bajo la curva expresada en la siguiente imagen. </h5>
+                <!--Aquí iría la imagen Pregunta 1, el src no está puesto-->
+                <center>
+                    <img src="imagenes/Problema 1.png" class="img-fluid" alt="..." width="450 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="a">a. 9/3 u<sup>2</sup> <br>
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="b">b. 13/2 u<sup>2</sup> </br>
+                <!--Correcta-->
+                <input type="radio" name="p1" value="c">c. 9 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="d">d. 18/3 u<sup>2</sup> </br>
+                <br>
+
+                <!--PREGUNTA 2-->
+                <h5>2.- Hallar F(1), F'(0) y F'(π/4), si: </h5>
+                <!--Aquí iría la imagen Pregunta 2, el src no está puesto-->
+                <center>
+                    <img src="imagenes/Problema 2.png" class="img-fluid" alt="..." width="250 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="a">a. F(1) = 0, F'(0) = -1, F'(π/4) = 1</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="b">b. F(1) = 0, F'(0) = 0, F'(π/4) = 0 </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="c">c. F(1) = -1, F'(0) = -1, F'(π/4) = 1</br>
+                <!--Correcta-->
+                <input type="radio" name="p2" value="d">d. F(1) = 0, F'(0) = 0, F'(π/4) = 1</br>
+                <br>
+
+                <!--PREGUNTA 3-->
+                <h5>3.-Integrar por el método de Simpson la curva y = 1/4 + x<sup>2</sup> en el
+                    intervalo de 0 a 2.</h5>
+                <!--Correcta-->
+                <input type="radio" name="p3" value="a">a. 0.29366</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="b">b. 1.654 </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="c">c. 0.2230</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="d">d. 0.217779</br>
+                <br>
+
+                <!--PREGUNTA 4-->
+                <h5>4.-Calcular el área de la región acotada por las gráficas y=x<sup>2</sup>+2x, y=-x+4, [-2,3]</h5>
+                <!--Correcta-->
+                <input type="radio" name="p4" value="a">a. 157/6 u<sup>2</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="b">b. 39 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="c">c. 157/6 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="d">d. 8/15 u<sup>2</sup></br>
+                <br>
+
+                <!--PREGUNTA 5-->
+                <h5>5.-Hallar el volumen del sólido que resulta de girar, alrededor del eje x, la región
+                    limitada por la curva x=2y-y<sup>2</sup> y las rectas x=y y x=1</h5>
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="a">a. 13π/4 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="b">b. π/8 u<sup>3</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="c">c. π u<sup>3</sup></br>
+                <!--Correcta-->
+                <input type="radio" name="p5" value="d">d. 𝝅/6 u<sup>3</sup></br>
+                <br>
+
+                <!--PREGUNTA 6-->
+                <h5>6.-La base de un sólido es un disco circular de radio 3. Encontrar el volumen del sólido
+                    si las secciones transversales perpendiculares al eje x son triángulos rectángulos
+                    isósceles con la hipotenusa apoyada a lo largo de la base</h5>
+
+                <!--Correcta-->
+                <input type="radio" name="p6" value="a">a. 36 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p6" value="b">b. 18𝝅 u<sup>3</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p6" value="c">c. 35 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p6" value="d">d. 36 u<sup>3</sup></br>
+                <br>
+                <!--PREGUNTA 7-->
+                <h5>7.-Calcular la longitud de arco de la función dada en el intervalo señalado: </h5>
+                <!--Aquí va la imagen  Problema 7, el src no está puesto-->
+                <center>
+                    <img src="imagenes/Problema 7.png" class="img-fluid" alt="..." width="450 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p7" value="a">a. 33/4 u</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p7" value="b">b. 8/3 u</br>
+                <!--Correcta-->
+                <input type="radio" name="p7" value="c">c. 33/16 u</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p7" value="d">d. 21/4 u</br>
+                <br>
+
+                <!--PREGUNTA 8-->
+                <h5>8.-Calcula la superficie de la esfera de radio r.</h5>
+                <center> <img src="imagenes/PROBLEMA8.png" class="img-fluid" alt="..." width="350 px"></center><br>
+                <!--Correcta-->
+                <input type="radio" name="p8" value="a">a. 4πr<sup>2</sup> u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p8" value="b">b. 4πr<sup>2</sup>/3 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p8" value="c">c. 8πr<sup>2</sup> u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p8" value="d">d. 4πr<sup>2</sup> u</br>
+                <br>
+
+                <!--PREGUNTA 9-->
+                <h5>9.-Encontrar el volumen del sólido de revolución entre y = x<sup>2</sup>+1 , y = x + 3 que gira
+                    sobre el eje x</h5>
+                <!--Incorrecta-->
+                <input type="radio" name="p9" value="a">a. 102π/5 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p9" value="b">b. 102π/3 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p9" value="c">c. 115π/5 u<sup>3</sup></br>
+                <!--Correcta-->
+                <input type="radio" name="p9" value="d">d. 117π/5 u<sup>3</sup></br>
+                <br>
+
+                <!--PREGUNTA 10-->
+                <h5>10.-Determinar el área delimitada por la siguiente función y el eje x</h5>
+                <!--Aquí va la imagen Problema 10, el src no está puesto-->
+                <center>
+                    <img src="imagenes/Problema 10.png" class="img-fluid" alt="..." width="450 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p10" value="a">a. 8a<sup>3</sup> u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p10" value="b">b. 8a<sup>3</sup>/3 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p10" value="c">c. 4a<sup>3</sup> u<sup>2</sup> </br>
+                <!--Correcta-->
+                <input type="radio" name="p10" value="d">d. 4a<sup>3</sup>/3 u<sup>2</sup> </br>
+                <br>
+
+                <input type="submit" id="submit" value="Enviar"> <br>
+                <a class="regreso" href="PARCIAL1.html">Regresar.</a><br>
+                <div id="resultado"></div>
+
+
+                <p>Asegurate de contestar todas las preguntas.</p> <br>
+            </form>
+        </section>
+    </div>
+
+
+
+    <script src="js/resp3.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>

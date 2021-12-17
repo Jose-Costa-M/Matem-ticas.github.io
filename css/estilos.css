@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(66, 181, 235, 0.637);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  height: 1px;
+  width: 100%;
+}
+.superior {
+  padding: 10px;
+  height: 10px;
+}
+/*estilos para el menu*/
+.menu {
+  float: left;
+  padding: 100px;
+}
+.opciones li {
+  float: left;
+  list-style: none;
+}
+.opciones li a {
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+}
+.opciones li a:hover {
+  background: #067fcf77;
+}
+.titulo {
+  text-align: center;
+  padding: 20px 0 15px 0;
+  color: #076494;
+  font-size: 50px;
+}
+/*estitlos para el cuerpo*/
+.cuerpo {
+  overflow: hidden;
+}
+.caja {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.card {
+  float: left;
+  margin: 25px;
+}
+
+.subtitulo {
+  background: #076494;
+}
+.proyecto {
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 0;
+}
+.efecto:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.contenido {
+  padding: 0px;
+  text-align: justify;
+  background: rgb(251, 251, 251);
+}
+.boton {
+  padding: 15px 20px;
+  margin: 20px 0;
+  color: whitesmoke;
+  background: #076494;
+  border-radius: 5px;
+}
+.boton:hover {
+  background: #0f4ab8ce;
+  cursor: pointer;
+}
+/*estilos del footer*/
+.pie {
+  float: left;
+  background: #000000;
+  overflow: hidden;
+  width: 1900px;
+}
+.pie2 {
+  float: left;
+  width: 1900px;
+  overflow: hidden;
+}
+
+.izquierda {
+  float: left;
+  width: 550px;
+  height: 1700px;
+  padding: 20px;
+}
+.derecha {
+  float: left;
+  width: 550px;
+  padding: 20px;
+}
+.abajo {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding: 10px;
+}
+.siguenos {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 15px 0;
+}
+.menudos {
+  float: left;
+  padding: 80px;
+  color: white;
+}
+.nav-item {
+  color: whitesmoke;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.title {
+  color: #076494;
+}
+
+/* ESTILOS PARA EXAMENES AQUÍ*/

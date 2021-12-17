@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ESCOM-EXAMENES CÁLCULO</title>
+    <link rel="stylesheet" href="css/ESTILOS_EXAMENES.css">
+    <meta name="keywords" content="Cálculo aplicado, Riemman, Integrales, Examenes">
+    <meta name="robots" content="index">
+    <link rel="icon" href="imagenes/matematicas.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="superior">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.escom.ipn.mx/">ESCOM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="CONTACT.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Recursos extra
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="listaexamen.html">Examenes</a></li>
+                            <li><a class="dropdown-item" href="RECURSOS_EXTRA.html">PDFS</a></li>
+                            <li><a class="dropdown-item" href="VIDEOS.html">Videos</a></li>
+                            <li><a class="dropdown-item" href="CURSOS.html">Cursos</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    </nav>
+    </header>
+    </div>
+
+    <div class="container">
+        <center class="title">
+            <h1> EXAMEN 2</h1>
+        </center>
+
+        <section>
+
+            <form name="quizForm" onsubmit="return verificarRespuestas()">
+                <!--Si requiere de imagenes, dime y yo las agrego en la carpeta para el zip-->
+                <!--PREGUNTA 1-->
+                <h5>1.- Encuentra el área bajo la curva para la función f(x)=x<sup>2</sup>+6x+8 en el intervalo [-4,-2]
+                    mediante Sumas de Riemman.</h5>
+                <!--Correcta-->
+                <input type="radio" name="p1" value="a">a. 4/3 u<sup>2</sup> <br>
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="b">b. 15/3 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="c">c. 16 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p1" value="d">d. 5/3 u<sup>2</sup> </br>
+                <!--Incorrecta-->
+                <br>
+
+                <!--PREGUNTA 2-->
+                <h5>2.- Calcular:</h5>
+                <center>
+                    <img src="imagenes/exa2pregunt1.png" class="img-fluid" alt="..." width="450 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="a">a. -5/3</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="b">b. 17/4 </br>
+                <!--Correcta-->
+                <input type="radio" name="p2" value="c">c. -5/6</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p2" value="d">d. 9/4</br>
+                <br>
+
+                <!--PREGUNTA 3-->
+                <h5>3.-Calcule:</h5>
+                <center>
+                    <img src="imagenes/EXA2PREGUNT2.png" class="img-fluid" alt="..." width="450 px">
+                </center>
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="a">a. 12/2</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="b">b. 54/5 </br>
+                <!--Correcta-->
+                <input type="radio" name="p3" value="c">c. 27/2</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p3" value="d">d. 3/4</br>
+                <br>
+
+                <!--PREGUNTA 4-->
+                <h5>4.-Integre por el método de Simpson:</h5>
+                <center>
+                    <img src="imagenes/EXA2PREGUNT3.png" class="img-fluid" alt="..." width="120 px">
+                </center>
+                <!--Correcta-->
+                <input type="radio" name="p4" value="a">a. 1.4626</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="b">b. 5.6414 </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="c">c. 3.5789 </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p4" value="d">d. 1.5626 </br>
+                <br>
+
+                <!--PREGUNTA 5-->
+                <h5>5.-Hallar el área de la región definida por las curvas y= 1 / x, y = x, y=1/4 x</h5>
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="a">a. 0.55 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="b">b. 0.45 u<sup>3</sup> </br>
+                <!--Correcta-->
+                <input type="radio" name="p5" value="c">c. 0.69 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p5" value="d">d. 3 u<sup>3</sup></br>
+                <br>
+
+                <!--PREGUNTA 6-->
+                <h5>6.-Dada la región limitada por x+y=1,y=x+1,determinar el volumen del sólido de revolución que se
+                    obtiene al girar la región con respecto al eje dado.</h5>
+
+                <!--Incorrecta-->
+                <input type="radio" name="p6" value="a">a. 17π.58 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p6" value="b">b. 15.25π u<sup>3</sup> </br>
+                <!--Incorrecta-->
+                <input type="radio" name="p6" value="c">c. 35π/3 u<sup>3</sup></br>
+                <!--Correcta-->
+                <input type="radio" name="p6" value="d">d. 10π/3u<sup>3</sup></br>
+                <br>
+
+                <!--PREGUNTA 7-->
+                <h5>7.-Calcular el volumen del sólido que se encuentra entre los planos x=-1,x=1. Si las secciones
+                    transversales son discos circulares cuyos diámetros van de y=x<sup>2</sup> a y=2-x<sup>2</sup></h5>
+                <!--Incorrecta-->
+                <input type="radio" name="p7" value="a">a. 8π u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p7" value="b">b. 2π/6 u<sup>3</sup></br>
+                <!--Correcta-->
+                <input type="radio" name="p7" value="c">c. 16π/15 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p7" value="d">d. 18π/2 u<sup>3</sup></br>
+                <br>
+
+                <!--PREGUNTA 8-->
+                <h5>8.-La base de un sólido es la región del plano xy acotado por las gráficas de y<sup>2</sup>=4x y
+                    x=4.Calcular el volumen del solido suponiendo que las secciones transversales que se obtienen al
+                    contarlos con planos perpendiculares al eje y son semicírculos con diámetro de la base.</h5>
+
+                <!--Correcta-->
+                <input type="radio" name="p8" value="a">a. 128π/25 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p8" value="b">b. 138π/25 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p8" value="c">c. 180π/24 u<sup>3</sup></br>
+                <!--Incorrecta-->
+                <input type="radio" name="p8" value="d">d. 158π/24 u<sup>3</sup></br>
+                <br>
+
+                <!--PREGUNTA 9-->
+                <h5>9.-Hallar la longitud del arco de la función y=ln(sec(x)),en el intervalo [0,π/4] </h5>
+                <!--Incorrecta-->
+                <input type="radio" name="p9" value="a">a. ln(10-√9)</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p9" value="b">b. ln(1+√5)</br>
+                <!--Correcta-->
+                <input type="radio" name="p9" value="c">c. ln(1+√2)</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p9" value="d">d. ln(1)</br>
+                <br>
+
+                <!--PREGUNTA 10-->
+                <h5>10.-Hallar la longitud del arco de la curva 9y<sup>2</sup>=4x<sup>3</sup> comprendido entre los
+                    puntos de la curba de abscisa x=0 y x=3</h5>
+
+                <!--Correcta-->
+                <input type="radio" name="p10" value="a">a. 2/5√27 u</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p10" value="b">b. 3/5√5 u</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p10" value="c">c. √18 u</br>
+                <!--Incorrecta-->
+                <input type="radio" name="p10" value="d">d. √8/16 u</br>
+                <br>
+
+                <input type="submit" id="submit" value="Enviar"> <br>
+                <a class="regreso" href="PARCIAL1.html">Regresar.</a><br>
+                <div id="resultado"></div>
+
+                <p>Asegurate de contestar todas las preguntas.</p> <br>
+            </form>
+        </section>
+    </div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/resp2.js"></script>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>

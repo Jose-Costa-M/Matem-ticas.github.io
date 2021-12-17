@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(16, 16, 19);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 1200px;
+  background: white;
+  margin: 10px auto;
+}
+
+.superior {
+  background: #2b8eff;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+  width: 270px;
+  padding: 35px;
+} /*estilos para el menu*/
+.menu {
+  float: left;
+  padding: 45px;
+}
+.opciones li {
+  float: left;
+  list-style: none;
+}
+.opciones li a {
+  color: whitesmoke;
+  padding: 25px;
+  text-decoration: none;
+  border: 1px solid whitesmoke;
+}
+.opciones li a:hover {
+  background: #b87d00;
+}
+/*Estilos PEDIDOS*/
+.contenedor .form .form-header .form-title {
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #2b8eff;
+  text-align: center;
+  padding: 14px 0;
+}
+.contenedor .form .form-header .form-title span {
+  color: rgb(0, 0, 0);
+}
+.contenedor .form {
+  background: rgba(255, 255, 255, 0.733);
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+}
+.contenedor .form .form-label {
+  display: block;
+  color: #000000;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+.contenedor .form .form-input,
+.form-textarea {
+  background: rgba(0, 10, 0, 0.7);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #2b8eff;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor .form .form-textarea {
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+}
+.contenedor .form .btn-submit {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  background: #ff851b;
+  font-size: 16px;
+  border: none;
+  padding: 15px 0;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.contenedor .form .btn-submit:hover {
+  background: #2b8eff;
+}
+.pie {
+  background: #2b8eff;
+
+  float: left;
+  width: 10px;
+
+  padding: 200px;
+}
+.izquierda {
+  float: left;
+  width: 150px;
+  padding: 200px;
+}
+.derecha {
+  float: left;
+  width: 550px;
+  padding: 20px;
+}
+.abajo {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  padding: 10px;
+}
+.siguenos {
+  text-align: center;
+  color: black;
+  padding: 15px 0;
+}
+.titulo {
+  text-align: center;
+  padding: 20px 0 15px 0;
+  color: #ff7600;
+  font-size: 50px;
+}
